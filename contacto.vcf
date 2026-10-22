@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ángel Cortés;Luis Nazario;;M. en C.;
+FN:M. en C. Luis Nazario Ángel Cortés
+ORG:Interpec San Marcos, S.A.;Aliamsa
+TITLE:Jefe de Mantenimiento y Servicios
+TEL;TYPE=CELL,VOICE:+524491882184
+TEL;TYPE=WORK,VOICE:+524499106490;ext=1544
+EMAIL;TYPE=WORK,INTERNET:nazario.angel@sabro.com.mx
+ADR;TYPE=WORK:;;Julio Díaz Torre # 202;Cd. Industrial;Aguascalientes;20290;México
+NOTE:M. en C. Luis Nazario Ángel Cortés - Jefe de Mantenimiento y Servicios - Interpec San Marcos (Planta de Alimentos # 2) / Aliamsa.
+URL:https://aliamsa.com.mx
+END:VCARD
