@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjeta Luis Nazario - Wallpaper HD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .wallpaper-container {
+      width: 1080px;
+      height: 1920px;
+      background: #ffffff;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 130px 60px 100px;
+      overflow: hidden;
+    }
+
+    /* Side Pill Accents matching reference */
+    .side-pill-left {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      width: 60px;
+      height: 900px;
+      background: #f59e0b;
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding: 80px 0;
+      z-index: 2;
+    }
+    .side-pill-right {
+      position: absolute;
+      bottom: -40px;
+      right: 0;
+      width: 60px;
+      height: 900px;
+      background: #f59e0b;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding: 80px 0;
+      z-index: 2;
+    }
+    .pill-notch {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #ffffff;
+    }
+
+    /* Circular Logo Badge */
+    .logo-circle {
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      border: 12px solid #f59e0b;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 36px;
+      box-shadow: 0 20px 50px rgba(245, 158, 11, 0.28);
+      z-index: 5;
+    }
+    .logo-circle img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    /* Person Info Typography */
+    .info-container {
+      text-align: center;
+      z-index: 5;
+      margin-top: 20px;
+    }
+    .person-name {
+      font-size: 56px;
+      font-weight: 900;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 14px;
+    }
+    .person-title {
+      font-size: 30px;
+      font-weight: 800;
+      color: #d97706;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 24px;
+    }
+    .person-email {
+      font-size: 34px;
+      font-weight: 600;
+      color: #334155;
+      margin-bottom: 12px;
+    }
+    .person-phones {
+      font-size: 32px;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: 0.02em;
+      margin-bottom: 10px;
+    }
+    .person-company {
+      font-size: 24px;
+      font-weight: 700;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* QR Code Section */
+    .qr-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 5;
+      margin-top: 10px;
+    }
+    .qr-frame {
+      border: 14px solid #f59e0b;
+      border-radius: 46px;
+      padding: 26px;
+      background: #ffffff;
+      box-shadow: 0 25px 60px rgba(245, 158, 11, 0.25);
+    }
+    #qrContainer canvas, #qrContainer img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Speech Bubble Tag */
+    .speech-bubble {
+      position: relative;
+      background: #f59e0b;
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 26px;
+      letter-spacing: 0.06em;
+      padding: 18px 46px;
+      border-radius: 20px;
+      margin-top: 26px;
+      text-transform: uppercase;
+      box-shadow: 0 12px 30px rgba(245, 158, 11, 0.4);
+    }
+    .speech-bubble::before {
+      content: '';
+      position: absolute;
+      top: -16px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 0 16px 16px 16px;
+      border-style: solid;
+      border-color: transparent transparent #f59e0b transparent;
+    }
+
+    /* Footer */
+    .card-footer {
+      z-index: 5;
+      text-align: center;
+    }
+    .card-footer span {
+      font-size: 28px;
+      font-weight: 700;
+      color: #64748b;
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wallpaper-container">
+    
+    <!-- Side Pills -->
+    <div class="side-pill-left">
+      <div class="pill-notch"></div>
+      <div class="pill-notch"></div>
+    </div>
+    <div class="side-pill-right">
+      <div class="pill-notch"></div>
+      <div class="pill-notch"></div>
+    </div>
+
+    <!-- Circular Logo -->
+    <div class="logo-circle">
+      <img src="logo_aliamsa.svg" alt="Aliamsa">
+    </div>
+
+    <!-- Info -->
+    <div class="info-container">
+      <h1 class="person-name">M. en C. Luis Nazario<br>Ángel Cortés</h1>
+      <p class="person-title">Jefe de Mantenimiento y Servicios</p>
+      <p class="person-email">nazario.angel@sabro.com.mx</p>
+      <p class="person-phones">(449) 188 21 84 &nbsp;|&nbsp; 910 64 90 Ext. 1544</p>
+      <p class="person-company">INTERPEC SAN MARCOS • PLANTA # 2</p>
+    </div>
+
+    <!-- QR Section -->
+    <div class="qr-section">
+      <div class="qr-frame">
+        <div id="qrContainer"></div>
+      </div>
+      <div class="speech-bubble">ESCANEA MI CONTACTO</div>
+    </div>
+
+    <!-- Footer URL -->
+    <div class="card-footer">
+      <span>tarjeta-nazario.vercel.app</span>
+    </div>
+
+  </div>
+
+  <script src="qrcode.min.js"></script>
+  <script>
+    new QRCode(document.getElementById('qrContainer'), {
+      text: "https://tarjeta-nazario.vercel.app",
+      width: 440,
+      height: 440,
+      colorDark: "#0f172a",
+      colorLight: "#ffffff",
+      correctLevel: QRCode.CorrectLevel.M
+    });
+  </script>
+</body>
+</html>
